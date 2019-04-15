@@ -1,0 +1,50 @@
+body{
+	background-color: rgb(13, 29, 92);
+}
+
+.navbar-header, .holder {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 20px 0
+}
+
+.links {
+	width: 50%;
+	align-self: center;
+	justify-content: baseline;
+}
+
+.searchbox {
+	width: 50%;
+	align-self: center;
+	justify-content: end;
+	text-align: center;
+}
+
+.searchbox input {
+	border: 0;
+	padding: 5px;
+	width: 45%;
+}
+
+.searchbox button {
+	border: 0;
+	padding: 5px 15px;
+}
+
+.navbar ul li{
+	list-style: none;
+    display: inline-block;
+    padding: 0 1em;
+}
+
+.menu-item-has-children ul{
+	display: none;
+}
+
+.open{
+	display: inline-flex;
+	padding: 4px;
+	background-color: aliceblue;
+
+}
